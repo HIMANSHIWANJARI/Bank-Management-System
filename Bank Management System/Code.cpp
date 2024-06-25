@@ -116,17 +116,18 @@ int main() {
     int choice;
     char op;
     do {
-        system("cls");
-        cout << "\t\t Bank Management System" << endl;
-        cout << "\t\t\tMain Menu" << endl;
+         system("cls");
+        cout << "\t\t **************************************************** BANK MANAGEMENT SYSTEM ****************************************************" << endl;
+        cout<<endl;
+        cout << "\t\t Main Menu" << endl<<endl;
         cout << "\t\t1. Create New Account" << endl;
         cout << "\t\t2. Show All Accounts" << endl;
         cout << "\t\t3. Search Account" << endl;
         cout << "\t\t4. Deposit Money" << endl;
         cout << "\t\t5. Withdraw Money" << endl;
         cout << "\t\t6. Show Transaction History" << endl;
-        cout << "\t\t7. Exit" << endl;
-        cout << "\t\t-------------------------------" << endl;
+        cout << "\t\t7. Exit" << endl<<endl;
+        cout << "\t\t********************************************************************************************************************************" << endl<<endl;
         cout << "\t\tEnter Your Choice: ";
         cin >> choice;
         switch (choice) {
